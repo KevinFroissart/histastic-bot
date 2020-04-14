@@ -1,15 +1,30 @@
 {
-  "name": "bot.hit",
-  "version": "1.0.0",
-  "description": "",
+  "name": "r6stats-discord-bot",
+  "version": "2.0.1",
+  "description": "R6Stats Discord Bot",
   "main": "index.js",
+  "private": true,
+  "keywords": [
+    "r6stats",
+    "rainbowsix",
+    "discord",
+    "discord-bot",
+    "discordjs"
+  ],
+  "author": "Jake <support@r6stats.com>",
+  "license": "GPL-3.0",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "babel-node index.js",
+    "dev": "nodemon --exec npm run start"
   },
-  "author": "Kevin Froissart",
-  "license": "ISC",
   "dependencies": {
-    "discord.js": "^12.1.1",
-    "dotenv": "^8.2.0"
+    "discord.js": "^11.5.1",
+    "dotenv": "^8.2.0",
+    "r6stats": "git://github.com/R6Stats/r6stats-node.git#v2"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "nodemon": "^1.19.2"
   }
 }
