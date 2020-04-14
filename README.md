@@ -15,10 +15,12 @@ yarn
 ```
 
 ### Setup the config
-Copy the `config.example.js` and create a `config.js`
-replace `login` with your uplay email adres
-replace `password` with your uplay password
+Go to `config.js`
 replace `base_url` with the API endpoint of r6stats
+
+Go to `.env` 
+replace `login` with your uplay email adress
+replace `password` with your uplay password
 replace `token` with your discord bot token, if you do not have one, create one [here](https://discordapp.com/developers/applications/)
 
 ## Running in Production
